@@ -1,0 +1,46 @@
+{
+  "name": "SANDRO PLAY PRO",
+  "short_name": "SandroTV",
+  "description": "Player TV avanzato con streaming HLS e registrazione video",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon-167x167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+ },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["entertainment", "video", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    }
+  ]
+}
