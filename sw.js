@@ -9,6 +9,14 @@ const urlsToCache = [
   '/icon-192.png',
   '/icon-512.png'
 ];
+self.addEventListener("install", () => {
+  self.skipWaiting();
+});
+
+self.addEventListener("activate", () => {
+  clients.claim();
+});
+
 
 self.addEventListener('install', event => {
   event.waitUntil(
