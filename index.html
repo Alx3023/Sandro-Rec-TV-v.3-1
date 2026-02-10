@@ -1419,6 +1419,11 @@
       document.getElementById('playlist-url').value = url;
       loadPlaylist();
     }
-  </script>
+  <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+
 </body>
 </html>
