@@ -1,14 +1,25 @@
 {
-  "name": "SANDRO PLAY PRO",
-  "short_name": "SandroTV",
-  "description": "Player TV avanzato con streaming HLS e registrazione video",
-  "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#6366f1",
-  "orientation": "landscape",
+  "name": "Sandro Rec TV",
+  "short_name": "SRTV",
   "icons": [
     {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
+
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
